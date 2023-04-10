@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(245, 238, 220);
+
+}
 /*definde navigation bar*/
 
 .navigation{
@@ -33,16 +37,31 @@ li a:hover{
     display: flex;
     width:80%;
     align-items: center;
+   
+    
 }
 .flex-container>div{
     margin-left: 200px;
     margin-top: 200px;
 }
 
-
 img{
     width: 400px;
     height: 500px;
-    
 }
 
+.flex-container-me{
+    display: flex;
+}
+.flex-container-me>div{
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+}
