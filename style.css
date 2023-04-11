@@ -43,6 +43,7 @@ li a:hover{
 .flex-container>div{
     margin-left: 200px;
     margin-top: 200px;
+   
 }
 
 img{
@@ -52,16 +53,33 @@ img{
 
 .flex-container-me{
     display: flex;
+    text-align: center;
 }
 .flex-container-me>div{
     margin-left: 50px;
     margin-top: 50px;
-    text-align: center;
+   
 }
-h2{
-    text-align: center;
+h1{
+   
     margin-top: 50px;
 }
+
 p{
     text-align: center;
 }
+.flex-containerP{
+    display: flex;
+    text-align: center;
+}
+.flex-containerP > div{
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+   
+}
+
