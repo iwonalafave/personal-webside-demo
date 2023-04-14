@@ -105,6 +105,32 @@ img{
 .lover-conteiner p{
     margin: 50px;
 }
+.container-portfolio{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 70px;
+    background-color: rgb(245, 228, 220);
+    
+}
+.container-portfolio div{
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.mini-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ 
+
+.mini-portfolio img{
+    height: 400px;
+    border: gray 04px solid;
+}
 
 
 
