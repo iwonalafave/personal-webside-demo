@@ -51,16 +51,44 @@ img{
     height: 500px;
 }
 
-.flex-container-me{
+.container-me{
     display: flex;
     text-align: center;
-}
-.flex-container-me>div{
-    margin-left: 50px;
-    margin-top: 50px;
-   
+    flex-direction: column;
 
 }
+.upper-container{
+    margin-top: 50px;
+    display: flex;
+    height: 300px;
+    
+
+}
+.upper-container div{
+   margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 30px;
+    border: green 0.7rem solid;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.upper-container img{
+    height: 275px;
+  
+}
+.lover-conteiner{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.lover-conteiner p{
+    margin: 50px;
+}
+
 h1{
    
     margin-top: 50px;
