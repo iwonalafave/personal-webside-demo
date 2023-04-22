@@ -115,8 +115,9 @@ img{
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-left: 50px;
-    margin-top: 70px;
+    margin-left: 150px;
+    margin-top: 100px;
+    
     background-color: rgb(245, 228, 220);
     
 }
@@ -127,15 +128,13 @@ img{
 .mini-portfolio{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
-
- 
 
 .mini-portfolio img{
     height: 400px;
     border: gray 04px solid;
+    margin-top: 30px;
 }
 #form{
     display: flex;
@@ -152,7 +151,21 @@ section {
 #submit{ 
     margin-top: 10px;
 }
+.contact{
+    
+background-image: url('images/back.jpg');  
+background-repeat: no-repeat;
+background-size: cover;
+}  
 
+@media screen and (min-width: 600px){
+
+    body{
+             
+     background-color: rgb(245, 238, 220);
+    }
+        
+    }  
 
 
 
